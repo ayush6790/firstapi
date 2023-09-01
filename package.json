@@ -1,0 +1,21 @@
+{
+  "name": "firstapi",
+  "version": "1.0.0",
+  "description": "my first api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "Ayush",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^5.8.0",
+    "mongoose": "^7.3.1",
+    "nodemon": "^3.0.1"
+  }
+}

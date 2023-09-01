@@ -1,0 +1,1 @@
+const express = require('express');const connectToDatabase = require('./db');app.use(express.json());connectToDatabase();
